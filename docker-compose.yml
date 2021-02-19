@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  my_laravel_admin:
+    build:
+      context: ./
+      dockerfile: Dockerfile7public
+    tty: true
+    container_name: my_laravel_admin
+    ports:
+      - "9999:80"
+    volumes:
+      - ./:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/php.ini
