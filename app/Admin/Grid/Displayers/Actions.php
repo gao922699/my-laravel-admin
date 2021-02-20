@@ -3,9 +3,8 @@
 namespace App\Admin\Grid\Displayers;
 
 use Encore\Admin\Admin;
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
 
-class Actions extends AbstractDisplayer
+class Actions extends \Encore\Admin\Grid\Displayers\Actions
 {
     /**
      * @var array
