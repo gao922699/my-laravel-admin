@@ -12,6 +12,7 @@
         "codingyu/ueditor": "^3.0",
         "encore/laravel-admin": "^1.8",
         "fideloper/proxy": "^4.4",
+        "intervention/image": "^2.5",
         "laravel/framework": "^6.20",
         "laravel/tinker": "^2.5"
     },
