@@ -1,7 +1,17 @@
 # my-laravel-admin
 基于zsong/laravel-admin的后台，初始化一些配置，修改了一些不足之处
 
-一些总结
+## 系统使用
+- 根目录输入命令：docker-compose up -d
+- 进入容器执行：composer install
+- 配置env文件中的数据库和APP_URL
+- 执行：php artisan migrate && php artisan db:seed
+
+## 官方文档：
+[https://laravel-admin.org/docs/zh/](https://laravel-admin.org/docs/zh/)
+
+
+## 一些总结
 [http://www.gaoqinghd.com/laravel-admin框架使用](http://www.gaoqinghd.com/laravel-admin框架使用)
 
 ##添加一个crud
