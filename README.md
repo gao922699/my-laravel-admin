@@ -10,6 +10,16 @@
 ## 官方文档：
 [https://laravel-admin.org/docs/zh/](https://laravel-admin.org/docs/zh/)
 
+## 比较有用的插件
+[https://github.com/laravel-admin-extensions/media-player](media-player媒体播放器)
+[https://github.com/laravel-admin-extensions/id-validator](id-validator身份证验证&获取信息)
+[https://github.com/laravel-admin-extensions/UEditor](ueditor（已集成）)
+[https://github.com/laravel-admin-extensions/cropper](图片裁剪上传)
+[https://github.com/laravel-admin-extensions/grid-lightbox](列表图集查看（已集成）)
+[https://github.com/laravel-admin-extensions/china-distpicker](中国地区级联选择)
+[https://github.com/laravel-admin-extensions/daterangepicker](日期区间选择器)
+[https://github.com/laravel-admin-extensions/reporter](错误日志查看)
+
 
 ## 一些总结
 [http://www.gaoqinghd.com/laravel-admin框架使用](http://www.gaoqinghd.com/laravel-admin框架使用)
