@@ -75,7 +75,7 @@ class ArticleController extends AdminController
 
         $form->text('title', '标题')->required();
         $form->select('type', '类型')->options(Article::TYPES)->setWidth(3,2)->required();
-        $form->image('cover', '封面图')->setWidth(3,2)->move('cover')->uniqueName()->thumbnail('resized', 80, 50);
+        $form->image('cover', '封面图')->setWidth(3,2)->move('cover')->uniqueName()->thumbnail('resized', 80, 50)->required();
         $form->date('publish_at', '发布时间')->default(date('Y-m-d'));
         $form->UEditor('content', '内容');
         $form->saving(function (Form $form) {
