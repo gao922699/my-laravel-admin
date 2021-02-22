@@ -12,8 +12,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
-            ArticleSeeder::class,
             \Encore\Admin\Auth\Database\AdminTablesSeeder::class,
+            ArticleSeeder::class,
         ]);
     }
 }
